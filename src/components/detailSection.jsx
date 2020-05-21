@@ -8,7 +8,13 @@ class DetailSection extends Component {
       <section className="detail-wrap">
         <div className="detail-image content-section"></div>
 
-        <section className="detail content-section">
+        <section
+          className="detail content-section"
+          data-sal="slide-left"
+          data-sal-delay="300"
+          data-sal-easing="ease"
+          data-sal-duration="500">
+
           <h2 className="heading font-weight-bold">{this.props.message}</h2>
           <table>
             <tbody>

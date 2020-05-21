@@ -12,10 +12,10 @@
 
 html {
   @include media-breakpoint-up(lg) {
-    /*scroll-snap-points-y: repeat(50vh);
+    scroll-snap-points-y: repeat(50vh);
     scroll-snap-destination: 0 0;
     scroll-snap-type: y mandatory;
-    scroll-snap-type: mandatory;*/
+    scroll-snap-type: mandatory;
   }
 }
 
@@ -28,7 +28,7 @@ body {
 .content-section {
   border: $wide-light-border;
   line-height: $line-height-size;
-  
+
   @include media-breakpoint-up(lg) {
     border: $xl-light-border;
   }
