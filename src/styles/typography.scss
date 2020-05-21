@@ -1,0 +1,20 @@
+@import "./theme-colors.scss";
+@import "./theme-vars.scss";
+
+/* Theme typhography */
+
+.slogan {
+    color: $secondary;
+    font-size: $h2-font-size;
+    text-shadow: $heading-shadow;
+    line-height: $heading-line-height;
+}
+
+.heading {
+    color: $primary;
+    font-size: $secondary-heading-size;
+    letter-spacing: -0.01em;
+    padding: $small-padding 0 $wide-padding 0;
+    margin: $heading-padding 0 0;
+    border-top: $heading-border;    
+}

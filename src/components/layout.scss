@@ -1,3 +1,174 @@
-body {
-  font-family: Helvetica, Arial, sans-serif
+@import "~bootstrap/scss/bootstrap";
+
+@import "~bootstrap/scss/_functions.scss";
+@import "bootstrap/scss/_variables.scss";
+@import "bootstrap/scss/mixins/_breakpoints.scss";
+
+@import "./../styles/theme-colors.scss";
+@import "./../styles/theme-vars.scss";
+
+/* Theme component styles */
+
+header {
+  position: absolute;
+  z-index: 1;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+}
+
+.navbar {
+  padding: $small-padding $wide-padding;
+
+  &-text {
+    @include media-breakpoint-up(lg) {
+      margin: $wide-padding $wide-padding 0 0;
+    }
+
+    & a:first-child {
+      padding: 0 $mid-padding 0;
+    }
+  }
+
+  .lang {
+    font-size: $small-paragraph-size;
+  }
+}
+
+.logo {
+  width: 172.61px;
+  height: 32px;
+  @include media-breakpoint-up(lg) {
+    width: 426px;
+    height: 79px;
+    margin: $wide-padding 0 0 $wide-padding;
+  }
+}
+
+.slider {
+  position: relative;
+  padding: 0 0 40% 0;
+  z-index: 0;
+  scroll-snap-align: start;
+
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 5%;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.67) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $overlay-top-height;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.67) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    transform: rotate(-180deg);
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: $overlay-bottom-height;
+  }
+
+  h1 {
+    margin: 0 auto;
+  }
+
+  .content {
+    text-align: center;
+
+    .btn {
+      margin: $large-padding auto;
+    }
+  }
+}
+
+.detail-wrap {
+  scroll-snap-align: start;
+  position: relative;
+
+  .detail {
+    background-color: $secondary;
+
+    @include media-breakpoint-up(lg) {
+      background-color: #ffffffc7;
+      border-left: none;
+      padding: 24px;
+      width: 40%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    &-image {
+      background-image: url(./../images/ringi-aripark3.jpg);
+      background-size: 1000px;
+      height: 500px;
+
+      @include media-breakpoint-up(lg) {
+        height: 100vh;
+        background-size: 100% 100%;
+      }
+    }
+  }
+}
+
+.detail,
+.contact {
+  padding: 0 $wide-padding $xl-padding $wide-padding;
+}
+
+.contact.content-section {
+  scroll-snap-align: start;
+
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+
+    &::after {
+      content: none;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .content {
+      width: 40%;
+      background-color: #0c0c0ced;
+      padding: $wide-padding;
+    }
+
+    .btn.action {
+      width: 100%;
+    }
+  }
+
+  .heading {
+    margin-top: $xl-padding;
+
+    @include media-breakpoint-up(lg) {
+      margin-top: $heading-padding;
+    }
+  }
+}
+
+form {
+  padding: $large-padding 0;
 }
