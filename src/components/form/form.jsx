@@ -30,7 +30,7 @@ class Form extends Component {
               <u>Tutvu meie privaatsuspoliitikaga.</u>
             </p>
             <p className="recaptcha">
-              <ReCAPTCHA sitekey="6LdqhPoUAAAAANKoaS2fpJcsg2L4kou4A2yBT2Uf" />
+              <ReCAPTCHA sitekey="6LdT8voUAAAAADzOzmUxDQHCmuM9JHIep2_pnYna" />
             </p>
             <Button type="submit" className="font-weight-bold action" variant="danger">
               <span>Saada!</span>
