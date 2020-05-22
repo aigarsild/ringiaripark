@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import Layout from "../components/layout"
 
 import SEO from "../components/seo"
-import SliderSection from "../components/sliderSection"
-import DetailSection from "../components/detailSection"
-import ContactSection from "../components/contactSection"
-import StickyMessage from "../components/stickyMessage"
+import SliderSection from "../components/content/sliderSection"
+import DetailSection from "../components/content/detailSection"
+import ContactSection from "../components/content/contactSection"
+import StickyMessage from "../components/content/stickyMessage"
 
 class IndexPage extends Component {
   render() {

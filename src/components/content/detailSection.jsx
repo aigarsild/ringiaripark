@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button'
-import CloudIcon from './../svg/cloud_download_white.svg'
+import CloudIcon from './../../svg/cloud_download_white.svg'
 
 class DetailSection extends Component {
   render() {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import backgroundImage from './../images/ringi-aripark1.jpg';
-import Logo from "./../svg/logo-white.svg"
-import Form from './form/form'
+import backgroundImage from './../../images/ringi-aripark1.jpg';
+import Logo from "./../../svg/logo-white.svg"
+import Form from '../form/form'
 
 class ContactSection extends Component {
 

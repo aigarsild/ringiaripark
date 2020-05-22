@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button'
-import backgroundImage from './../images/ringi-aripark1.jpg';
-import ArrowIcon from './../svg/chevron_big_right.svg'
+import backgroundImage from './../../images/ringi-aripark1.jpg';
+import ArrowIcon from './../../svg/chevron_big_right.svg'
 
 class SliderSection extends Component {
   render() {
