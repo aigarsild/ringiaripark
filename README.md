@@ -14,6 +14,8 @@ The page works in different browsers, but scroll-snap is only supported by chrom
 
 I used .scss for styling and .jsx for creating react components and bootstrap styles and components.
 
+Form is working and using Netlifys form functionality and I added Googles recaptcha.
+
 ## Project setup
 ```
 npm install
