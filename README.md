@@ -16,6 +16,10 @@ I used .scss for styling and .jsx for creating react components and bootstrap st
 
 Form is working and using Netlifys form functionality and I added Googles recaptcha.
 
+### Development process
+
+For editing this project I used Visual Studio, for version control I used GIT and github and the project is deploy to [Netlify](https://www.netlify.com/)
+
 ## Project setup
 ```
 npm install
