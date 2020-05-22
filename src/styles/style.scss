@@ -14,10 +14,7 @@ html {
   scroll-behavior: smooth;
 
   @include media-breakpoint-up(lg) {
-    scroll-snap-points-y: repeat(50vh);
-    scroll-snap-destination: 0 0;
-    scroll-snap-type: y mandatory;
-    scroll-snap-type: mandatory;
+    scroll-snap-type: y;
   }
 }
 
