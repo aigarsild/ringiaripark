@@ -8,7 +8,8 @@ class SliderSection extends Component {
     return (
       <section className="slider content-section d-flex align-content-end flex-wrap min-vh-100" style={{
         backgroundImage: `url(${backgroundImage})`,
-        backgroundPosition: `center`
+        backgroundPosition: `center`,
+        backgroundColor: `#a79aa7`
       }}>
         <div className="content">
           <h1 className="slogan text-center w-75 font-weight-bold">{this.props.message}</h1>
