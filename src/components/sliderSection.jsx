@@ -3,8 +3,6 @@ import Button from 'react-bootstrap/Button'
 import backgroundImage from './../images/ringi-aripark1.jpg';
 import ArrowIcon from './../svg/chevron_big_right.svg'
 
-import Hejj from './cookie/cookieToast'
-
 class SliderSection extends Component {
   render() {
     return (

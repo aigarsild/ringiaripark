@@ -7,7 +7,8 @@ class Form extends Component {
     
     return (
       <>
-        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true">
+        <form name="ringi-kontakt" method="POST" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true" action="/thank-you">
+        <input type="hidden" name="form-name" value="ringi-kontakt" />
           <p>
             <input type="text" required name="name" placeholder="Nimi*" />
           </p>

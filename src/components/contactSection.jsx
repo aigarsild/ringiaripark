@@ -4,7 +4,7 @@ import Logo from "./../svg/logo-white.svg"
 import Form from './form/form'
 
 class ContactSection extends Component {
-  
+
   render() {
     return (
       <section id="kontakt" className="contact content-section dark min-vh-100" style={{
@@ -14,10 +14,12 @@ class ContactSection extends Component {
 
         <Logo className="logo d-none d-lg-block" />
 
-        <div className="content" data-sal="slide-left"
-  data-sal-delay="500"
-  data-sal-easing="ease"
-  data-sal-duration="500">
+        <div
+          className="content"
+          data-sal="slide-left"
+          data-sal-delay="500"
+          data-sal-easing="ease"
+          data-sal-duration="500">
           <h2 className="heading font-weight-bold">{this.props.message}</h2>
           <ul>
             <li>Martin Ellervee</li>
