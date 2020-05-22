@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import backgroundImage from './../images/ringi-aripark1.jpg';
+import Logo from "./../svg/logo-white.svg"
 import Form from './form/form'
 
 class ContactSection extends Component {
   
   render() {
     return (
-      <section className="contact content-section dark min-vh-100" style={{
+      <section id="kontakt" className="contact content-section dark min-vh-100" style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundPosition: `center`
       }}>
+
+        <Logo className="logo d-none d-lg-block" />
+
         <div className="content" data-sal="slide-left"
   data-sal-delay="500"
   data-sal-easing="ease"

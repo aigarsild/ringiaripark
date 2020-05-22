@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import CookieToast from './cookie/cookieToast'
 import "./../styles/style.scss"
 import "./layout.scss"
 
@@ -53,6 +54,7 @@ const Layout = ({ children }) => {
       </Helmet>
 
       <Header siteTitle={data.site.siteMetadata.title} />
+      <CookieToast />
       <main>{children}</main>
 
     </>

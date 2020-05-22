@@ -7,7 +7,7 @@ class Form extends Component {
     
     return (
       <>
-        <form name="contact" id="form" method="POST" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha= "true">
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true">
           <p>
             <input type="text" required name="name" placeholder="Nimi*" />
           </p>
@@ -18,7 +18,7 @@ class Form extends Component {
             <input type="email" required name="email" placeholder="E-post*" />
           </p>
           <p>
-            <textarea name="message" required placeholder="Küsimused, soovid, ettepanekud*" ></textarea>
+            <textarea name="message" required placeholder="Küsimused, soovid, ettepanekud*"></textarea>
           </p>
           <div>
             <p className="small-paragraph">

@@ -11,6 +11,8 @@
 /* Global styles */
 
 html {
+  scroll-behavior: smooth;
+
   @include media-breakpoint-up(lg) {
     scroll-snap-points-y: repeat(50vh);
     scroll-snap-destination: 0 0;
@@ -22,6 +24,10 @@ html {
 body {
   font-family: Helvetica, Arial, sans-serif;
   -webkit-overflow-scrolling: touch;
+}
+
+a {
+  color: $primary;
 }
 
 /* Global components */
@@ -71,6 +77,12 @@ table {
   }
 }
 
+.btn {
+  border-radius: 0;
+  border: $mid-border;
+  height: 40px;
+}
+
 .btn.action {
   background-color: $action;
   border-color: $action;
@@ -81,7 +93,7 @@ table {
     width: auto;
   }
 
-  span {
+  svg ~ span {
     padding: 0 0 0 $small-padding;
   }
 }
@@ -142,4 +154,29 @@ textarea {
 .small-paragraph {
   line-height: $small-line-height-size;
   font-size: 0.75rem; /* $small-paragraph-size */
+}
+
+.alert {
+  border-radius: 0;
+  position: fixed;
+  bottom: $large-padding;
+  left: $large-padding;
+  right: 0;
+  font-size: $small-paragraph-size;
+  background-color: $secondary;
+  z-index: 999;
+  max-width: 400px;
+
+  @include media-breakpoint-up(lg) {
+    width: 300px;
+  }
+
+  p {
+    float: left;
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: underline;
+  }
 }
