@@ -42,6 +42,7 @@ a {
 
 .content {
   position: relative;
+  width: 100%;
   z-index: 1;
 }
 
@@ -160,7 +161,7 @@ textarea {
   border-radius: 0;
   position: fixed;
   bottom: $large-padding;
-  left: $large-padding;
+  left: 0;
   right: 0;
   font-size: $small-paragraph-size;
   background-color: $secondary;
@@ -169,6 +170,7 @@ textarea {
 
   @include media-breakpoint-up(lg) {
     width: 300px;
+    left: $large-padding;
   }
 
   p {
