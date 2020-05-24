@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Ringi äripark`,
-    description: `Üürida uued A-klassi nähtavusega build-to-suite kaubandus- ja teenindus-pinnad Jüri ringil`,
+    title: `Ringi aripark`,
+    description: `Yyrida uued A-klassi nahtavusega build-to-suite kaubandus- ja teenindus-pinnad Jyri ringil`,
     author: `@aigarsild`,
   },
   plugins: [
