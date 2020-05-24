@@ -49,11 +49,14 @@ a {
   padding: $small-padding $wide-padding;
   border-bottom: $wide-light-border;
 
-  p {
+  button {
     font-weight: $bold;
     color: $secondary;
     text-align: center;
     margin: 0;
+    width: 100%;
+    background: none;
+    border: none;
   }
 }
 

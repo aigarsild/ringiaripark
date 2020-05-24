@@ -6,8 +6,8 @@ class StickyMessage extends Component {
     const classNames = ' message d-lg-none'
 
     return (
-      <section onClick={() => scrollTo(this.props.btnHref)} className={this.props.bottom ? 'fixed-bottom' + classNames: 'fixed-top' + classNames}>
-        <p>{this.props.message}</p>
+      <section className={this.props.bottom ? 'fixed-bottom' + classNames: 'fixed-top' + classNames}>
+        <button onKeyUp={() => scrollTo(this.props.btnHref)} onClick={() => scrollTo(this.props.btnHref)}>{this.props.message}</button>
       </section>
     )
   }

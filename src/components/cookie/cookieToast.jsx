@@ -24,7 +24,7 @@ class CookieToast extends Component {
         {this.state.showForm &&
           <div className="alert d-flex">
             <p>
-              See veebileht kasutab küpsiseid. Tutvu meie <a href="#">privaatsuspoliitikaga.</a>
+              See veebileht kasutab küpsiseid. Tutvu meie <a href="/">privaatsuspoliitikaga.</a>
             </p>
 
             <Button onClick={this.closeModal.bind(this)} className="font-weight-bold" variant="outline-dark">

@@ -29,9 +29,9 @@ class Form extends Component {
               lisa isikuandmeid reklaami eesmärgiga andmebaasidesse.
               <u>Tutvu meie privaatsuspoliitikaga.</u>
             </p>
-            <p className="recaptcha">
+            <div className="recaptcha">
               <ReCAPTCHA sitekey="6LdT8voUAAAAADzOzmUxDQHCmuM9JHIep2_pnYna" />
-            </p>
+            </div>
             <Button type="submit" className="font-weight-bold action" variant="danger">
               <span>Saada!</span>
             </Button>

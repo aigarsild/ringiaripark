@@ -18,11 +18,11 @@ class SliderSection extends Component {
       }}>
         <div className="content">
           <h1 className="slogan text-center w-75 font-weight-bold">{this.props.message}</h1>
-          <Button onClick={() => scrollTo(this.props.btnHref)} className="action d-none d-lg-block font-weight-bold" variant="danger">
+          <Button onKeyUp={() => scrollTo(this.props.btnHref)} onClick={() => scrollTo(this.props.btnHref)} className="action d-none d-lg-block font-weight-bold" variant="danger">
             <span>{this.props.btnMessage}</span>
           </Button>
         </div>
-        <ArrowIcon onClick={() => scrollTo('#detail')} className="arrow-icon" />
+        <ArrowIcon onKeyUp={() => scrollTo('#detail')} onClick={() => scrollTo('#detail')} className="arrow-icon" />
       </section>
       </>
     )

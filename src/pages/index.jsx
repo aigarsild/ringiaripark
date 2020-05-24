@@ -5,8 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SliderSection from "../components/content/sliderSection"
 import DetailSection from "../components/content/detailSection"
-import ContactSection from "../components/content/contactSection"
-import StickyMessage from "../components/content/stickyMessage"
+import ContactSection from '../components/content/contactSection'
 
 class IndexPage extends Component {
   render() {
