@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar'
 const Header = ({ siteTitle }) => (
   <header> 
     <Navbar className="navbar navbar-dark">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
       <Logo className="logo" />
       </Navbar.Brand>
       <Navbar.Toggle />

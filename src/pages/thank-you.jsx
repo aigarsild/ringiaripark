@@ -11,6 +11,7 @@ class ThankYou extends Component {
         <SliderSection
           message="Aitäh kirjutamast, võtame peatselt ühendust!"
           btnMessage="Tagasi esilehele"
+          isLink="true"
           btnHref="/"
         />
       </Layout>
