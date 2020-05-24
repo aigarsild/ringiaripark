@@ -11,8 +11,6 @@
 /* Global styles */
 
 html {
-  scroll-behavior: smooth;
-
   @include media-breakpoint-up(lg) {
     scroll-snap-type: y;
   }
@@ -20,7 +18,6 @@ html {
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  -webkit-overflow-scrolling: touch;
 }
 
 a {
@@ -81,7 +78,7 @@ table {
 .btn {
   border-radius: 0;
   border: $mid-border;
-  height: 40px;
+  height: 2.5rem;
 }
 
 .btn.action {

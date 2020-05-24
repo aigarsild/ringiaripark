@@ -12,9 +12,9 @@
 header {
   position: absolute;
   z-index: 1;
-  top: 8px;
-  left: 8px;
-  right: 8px;
+  top: $small-padding;
+  left: $small-padding;
+  right: $small-padding;
 }
 
 .navbar {
@@ -107,7 +107,7 @@ header {
 
   .arrow-icon {
     position: absolute;
-    bottom: 10px;
+    bottom: 0.625rem;
     right: 0;
   }
 }
@@ -123,7 +123,7 @@ header {
     @include media-breakpoint-up(lg) {
       background-color: #ffffffc7;
       border-left: none;
-      padding: 24px;
+      padding: 1.5rem;
       width: 40%;
       position: absolute;
       top: 0;
@@ -186,10 +186,14 @@ header {
   .logo {
     position: absolute;
     left: 0;
-    bottom: 24px;
+    bottom: 1.5rem;
   }
 }
 
 form {
   padding: $large-padding 0;
+}
+
+.recaptcha {
+  margin-bottom: 1rem;
 }
