@@ -5,7 +5,7 @@ import CloudIcon from './../../svg/cloud_download_white.svg'
 class DetailSection extends Component {
   render() {
     return (
-      <section className="detail-wrap">
+      <section className="detail-wrap" id="detail">
         <div className="detail-image content-section"></div>
 
         <section

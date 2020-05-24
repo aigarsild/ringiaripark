@@ -1,6 +1,6 @@
-import PropTypes from "prop-types"
-import React from "react"
-import Logo from "./../svg/logo-white.svg"
+import PropTypes from 'prop-types'
+import React from 'react'
+import Logo from './../svg/logo-white.svg'
 
 import Navbar from 'react-bootstrap/Navbar'
 

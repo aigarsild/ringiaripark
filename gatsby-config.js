@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [
     `react-bootstrap`,
+    `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
@@ -29,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Ringi äripark`,
+        name: `Ringi aripark`,
         short_name: `Ringi`,
         lang: `et`,
         start_url: `/`,

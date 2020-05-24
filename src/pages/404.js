@@ -8,7 +8,7 @@ const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
       <SliderSection
-          message="Lehte ei eleitud :((("
+          message="Lehte ei leitud :((("
           btnMessage="Tagasi esilehele"
           btnHref="/"
         />

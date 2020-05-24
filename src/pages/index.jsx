@@ -14,7 +14,6 @@ class IndexPage extends Component {
       <Layout>
         <SEO title="Ringi äripark" description="Üürida uued A-klassi nähtavusega build-to-suite kaubandus- ja teenindus-pinnad Jüri ringil"/>
 
-        <StickyMessage message="Eelmüük alanud - võta ühendust!" bottom="true"/>
         <SliderSection 
         message={<span>Üürida uued A-klassi nähtavusega <i>build-to-suite</i> kaubandus- ja teenindus-pinnad Jüri ringil</span>} 
         btnMessage="Eelmüük alanud – võta ühendust!"

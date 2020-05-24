@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
-import ReCAPTCHA from "react-google-recaptcha";
+import ReCAPTCHA from 'react-google-recaptcha';
 
 class Form extends Component {
 
